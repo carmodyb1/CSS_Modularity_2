@@ -1,0 +1,68 @@
+/* ADD YOUR STYLES HERE */
+
+
+.center-horizontally {
+	margin-left: 30px;
+	vertical-align: top;
+	float: left;
+
+	/*float: left; - did not work*/
+	/*padding: 25px; - did not work*/
+}
+
+
+.vertical-boxes {
+	/*float: left;*/
+	vertical-align: center;
+	margin-top: 10px;
+	/*clear: left;*/
+}
+
+.vertical-padding {
+	padding: 100px;
+}
+
+
+.list {
+/*list-style: none;	*/
+/*display: inline-block;*/
+}
+
+
+.center-list {
+	list-style: none;
+}
+
+.center-list li {
+	display: inline-block;
+}
+
+
+.large-button {
+	font-size: 32px;
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+	padding: 15px;
+	display: inline-block;
+}
+
+.medium-button {
+	font-size: 16px;
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	display: inline-block;
+	border:none;
+	text-decoration: none;
+}
+
+.small-button {
+	font-size: 8px;
+	background-color: red;
+	color: white;
+	border-radius: 3px;
+	padding: 5px;
+	display: inline-block;
+}
