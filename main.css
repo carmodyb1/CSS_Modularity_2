@@ -135,16 +135,8 @@
 	padding-bottom: 3px;
 }
 
-
-
 .pagination {
-	/*float: left;*/
-	/*display: inline-block;*/
-
-	/*padding:  10px 10px;*/
-	/*list-style-type: none;*/
 	color: red;
-	/*text-decoration: none;*/
 }
 
 
@@ -162,13 +154,20 @@
 }
 
 
-/*.page-special {
-	text-align: top;
-}*/
+/*Comment stream formatting*/
 
+.float-left {
+	float: left;
+	/*clear: left;*/
+}
 
+.overflow-hidden {
+	overflow: hidden;
+}
 
-
+.comment-contained {
+	clear: left;
+}
 
 
 
