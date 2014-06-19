@@ -109,6 +109,73 @@
 }
 
 
+/*Pagination menu*/
+
+.pagination li {
+	display: inline-block;
+}
+
+
+.page a {
+	margin: 15px;
+
+	color: red;
+	/*float: left;*/
+	width: 10px;
+	text-align: top;
+	text-decoration: none;
+
+	/*text-decoration: none;*/
+}
+
+
+.page {
+	border-bottom: 2px solid red;
+	margin: 5px;
+	padding-bottom: 3px;
+}
+
+
+
+.pagination {
+	/*float: left;*/
+	/*display: inline-block;*/
+
+	/*padding:  10px 10px;*/
+	/*list-style-type: none;*/
+	color: red;
+	/*text-decoration: none;*/
+}
+
+
+.page-active {
+	color: gray;
+	text-decoration: none;
+	border-bottom: none;
+
+}
+
+.page-nav a {
+	color: red;
+	text-decoration: none;
+	/*display: inline-block;*/
+}
+
+
+/*.page-special {
+	text-align: top;
+}*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
