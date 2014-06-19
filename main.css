@@ -67,3 +67,78 @@
 	padding: 5px;
 	display: inline-block;
 }
+
+
+
+/*Naivagation menu*/
+
+.navigation-menu li {
+	float: left;
+	padding: 20px 40px;
+	list-style-type: none;
+}
+
+
+.hover {
+	background-color: red;
+	text-decoration: none;
+}
+
+
+.hover a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.hover:hover {
+	background-color: green;
+} 
+
+.navigation-menu {
+	padding: 0;
+	margin: 0;
+}
+
+
+.answer {
+	border-radius: 10px;
+	overflow: hidden;
+	float: left;
+	/*width: auto;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
