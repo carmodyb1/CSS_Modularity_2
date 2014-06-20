@@ -170,6 +170,47 @@
 }
 
 
+/*tabs exercise*/
+.tab-names {
+	list-style: none;
+	color: blue;
+	margin-left: 300px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.tab-names a {
+	text-decoration: none;
+	padding: 5px;
+	padding-bottom: 2px;
+	color: blue;
+	display: block;
+	/*border: 1px solid gray;*/
+}
+
+.tab-names li {
+	display: inline-block;
+	border: 1px solid gray;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	position: relative;
+	top: 1px;
+	margin-left: 8px;
+}
+
+.tab-names li.active {
+	border-bottom-color: white;
+}
+
+.text-container {
+	width: 800px;
+	margin-left: 300px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px;
+}
+
 
 
 
